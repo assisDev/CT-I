@@ -1,4 +1,4 @@
-from ..databases import db
+from databases.config import db
 # from datetime import datetime
 
 class Denuncia(db.Model):

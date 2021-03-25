@@ -1,5 +1,6 @@
-from databases import db
+from databases.config import db
 
+print("Table familia criada")
 class Familia(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     genitor = db.Column(db.String(150))
@@ -10,3 +11,5 @@ class Familia(db.Model):
 
     def __rpr__(self):
         return f'Familia {self.responsavel}'
+
+db.create_all()

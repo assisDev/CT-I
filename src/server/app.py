@@ -1,5 +1,6 @@
 from flask import Flask
-from databases import config
+import models
+
 
 app = Flask(__name__)
 

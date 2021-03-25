@@ -1,4 +1,4 @@
-# from databases import db
+from databases.config import db
 # from datetime import datetime
 
 class Caso(db.Model):
@@ -11,11 +11,13 @@ class Caso(db.Model):
     data_transferencia = db.Column(db.DateTime)
     denuncia_id = db.Column(db.Integer, db.ForeignKey('denuncia.id'))
     denuncia = db.relationship('Caso', backref=db.backref('casos', lazy=True))
-    criado_em = db.Column(db.Datetime, default=datetime.utcnow)
-    atualizado_em = db.Column(db.Datetime)
+    # criado_em = db.Column(db.Datetime, default=datetime.utcnow)
+    # atualizado_em = db.Column(db.Datetime)
 
     def __rpr__(self):
         return f'Caso {self.caso}'
     
+
+db.create_all()
     
     
