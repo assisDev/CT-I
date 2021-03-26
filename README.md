@@ -2,7 +2,7 @@
 
 Projeto desenvolvido com o objetivo de facilitar o trabalho das equipes administrativas dos Conselhos Tutelares.
 
-![TICtoe](https://user-images.githubusercontent.com/71731452/111336764-48b30a00-8654-11eb-96fe-4e01cd9fd17a.gif)
+
 
 ### Construido com
 
