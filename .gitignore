@@ -500,4 +500,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 src/server/databases/database.db
-# .vscode
+.vscode
