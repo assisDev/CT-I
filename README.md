@@ -27,8 +27,7 @@ Descrever o uso da aplicação.
 
 ## Roadmap
 
-Consulte os [issues](https://github.com/marceloapd/CT-SIA/issues) para obter uma lista de recursos propostos (e problemas conhecidos).
-
+Consulte os [issues](https://github.com/AssisDev/CT-I/issues) para obter uma lista de recursos propostos (e problemas conhecidos).
 
 ## Contribuindo
 
@@ -37,10 +36,3 @@ Contribuição de novas funcionalidades serão bem vindas.
 ## Licença
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-## Contato
-
-Marcelo Assis - [@marceloapda](https://twitter.com/marceloapda) - marcelo.apdassis@gmail.com
-
-Link do Projeto: [https://github.com/marceloapd/TicToe](https://github.com/marceloapd/TicToe)
-
