@@ -17,4 +17,4 @@ class Crianca(db.Model):
     def __rpr__(self):
         return f'Crianca {self.nome}'
 
-    db.create_all()
+db.create_all()

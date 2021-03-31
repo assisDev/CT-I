@@ -1,5 +1,4 @@
 from databases.config import db
-# from datetime import datetime
 
 class Caso(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -19,5 +18,4 @@ class Caso(db.Model):
     
 
 db.create_all()
-    
     
